@@ -34,25 +34,34 @@ namespace WindowsFormsApp4
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation2 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             Utilities.BunifuPages.BunifuAnimatorNS.Animation animation1 = new Utilities.BunifuPages.BunifuAnimatorNS.Animation();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -76,8 +85,6 @@ namespace WindowsFormsApp4
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges7 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.StateProperties();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -87,13 +94,8 @@ namespace WindowsFormsApp4
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.indicator = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -120,31 +122,74 @@ namespace WindowsFormsApp4
             this.panel3 = new System.Windows.Forms.Panel();
             this.ResolvedIssuesPage = new System.Windows.Forms.TabPage();
             this.RESOLVE_ISSUES_TABLE = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.issueidDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.issuedateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.resolvedIssuesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bunifuImageButton13 = new Bunifu.Framework.UI.BunifuImageButton();
             this.REOLVED_ISSUES_PANEL = new System.Windows.Forms.Panel();
             this.FundsPage = new System.Windows.Forms.TabPage();
             this.FUNDS_TABLE = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuImageButton12 = new Bunifu.Framework.UI.BunifuImageButton();
             this.FUNDS_PANEL = new System.Windows.Forms.Panel();
             this.FeedbacksPage = new System.Windows.Forms.TabPage();
-            this.FEEDBACK_TABLE = new Bunifu.UI.WinForms.BunifuDataGridView();
             this.FEEDBACK_PANEL = new System.Windows.Forms.Panel();
+            this.bunifuDataGridView2 = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.advertismentidDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.adstitleDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.adstextDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.websitelinkDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.useridDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.elapsedDaysDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.imageAdDataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.advertismentBindingSource6 = new System.Windows.Forms.BindingSource(this.components);
             this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.ReportPage = new System.Windows.Forms.TabPage();
             this.REPORT_TABLE = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.reportidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.issueidDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.reporttextDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.reportBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bunifuImageButton10 = new Bunifu.Framework.UI.BunifuImageButton();
             this.REPORT_PANEL = new System.Windows.Forms.Panel();
             this.UserPage = new System.Windows.Forms.TabPage();
             this.bunifuImageButton9 = new Bunifu.Framework.UI.BunifuImageButton();
             this.USER_PANEL = new System.Windows.Forms.Panel();
             this.USER_TABLE = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.useridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailaddressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contactnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.IssuePage = new System.Windows.Forms.TabPage();
             this.ISSUE_TABLE = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.issueidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.issuedateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.issueBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bunifuImageButton8 = new Bunifu.Framework.UI.BunifuImageButton();
             this.ISSUE_PANEL = new System.Windows.Forms.Panel();
             this.VolunteersPages = new System.Windows.Forms.TabPage();
             this.VOLUNTEER_TABLE = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.volunteeridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.contactDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cnicnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.volunteerBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.bunifuImageButton6 = new Bunifu.Framework.UI.BunifuImageButton();
             this.VOLUNTEER_PANEL = new System.Windows.Forms.Panel();
             this.bunifuImageButton7 = new Bunifu.Framework.UI.BunifuImageButton();
@@ -268,11 +313,13 @@ namespace WindowsFormsApp4
             this.panel21 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label52 = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.panel15 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -335,47 +382,14 @@ namespace WindowsFormsApp4
             this.dataGridViewTextBoxColumn42 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn41 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn40 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.volunteeridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contactDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cnicnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.volunteerBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.issueBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.userBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.reportBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.advertismentidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.advertisementnameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.advertisementlinkDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.advertisemnetdescriptionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.advertisementimageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.advertismentBindingSource5 = new System.Windows.Forms.BindingSource(this.components);
+            this.advertismentBindingSource4 = new System.Windows.Forms.BindingSource(this.components);
+            this.advertismentBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
             this.advertismentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.issueidDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.issuedateDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.resolvedIssuesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.volunteerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.volunteerBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.issueidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.issuedateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.useridDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.emailaddressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contactnoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.reportidDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.userIDDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.issueidDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.reporttextDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.statusDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.advertismentBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.advertismentBindingSource3 = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
@@ -386,25 +400,31 @@ namespace WindowsFormsApp4
             this.panel3.SuspendLayout();
             this.ResolvedIssuesPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.RESOLVE_ISSUES_TABLE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.resolvedIssuesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton13)).BeginInit();
             this.FundsPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FUNDS_TABLE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton12)).BeginInit();
             this.FeedbacksPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FEEDBACK_TABLE)).BeginInit();
             this.FEEDBACK_PANEL.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource6)).BeginInit();
             this.ReportPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.REPORT_TABLE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).BeginInit();
             this.UserPage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).BeginInit();
             this.USER_PANEL.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.USER_TABLE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).BeginInit();
             this.IssuePage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ISSUE_TABLE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.issueBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).BeginInit();
             this.VolunteersPages.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.VOLUNTEER_TABLE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).BeginInit();
             this.VOLUNTEER_PANEL.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).BeginInit();
@@ -477,20 +497,21 @@ namespace WindowsFormsApp4
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.issueBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reportBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resolvedIssuesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -1082,6 +1103,33 @@ namespace WindowsFormsApp4
             this.RESOLVE_ISSUES_TABLE.TabIndex = 29;
             this.RESOLVE_ISSUES_TABLE.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.DodgerBlue;
             // 
+            // issueidDataGridViewTextBoxColumn2
+            // 
+            this.issueidDataGridViewTextBoxColumn2.DataPropertyName = "issue_id";
+            this.issueidDataGridViewTextBoxColumn2.HeaderText = "issue_id";
+            this.issueidDataGridViewTextBoxColumn2.Name = "issueidDataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "issueStatement";
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridViewTextBoxColumn2.HeaderText = "issueStatement";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // issuedateDataGridViewTextBoxColumn1
+            // 
+            this.issuedateDataGridViewTextBoxColumn1.DataPropertyName = "Issuedate";
+            dataGridViewCellStyle4.Format = "d";
+            dataGridViewCellStyle4.NullValue = null;
+            this.issuedateDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle4;
+            this.issuedateDataGridViewTextBoxColumn1.HeaderText = "Issuedate";
+            this.issuedateDataGridViewTextBoxColumn1.Name = "issuedateDataGridViewTextBoxColumn1";
+            // 
+            // resolvedIssuesBindingSource
+            // 
+            this.resolvedIssuesBindingSource.DataSource = typeof(WindowsFormsApp4.Model.ResolvedIssues);
+            // 
             // bunifuImageButton13
             // 
             this.bunifuImageButton13.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton13.Image")));
@@ -1185,6 +1233,45 @@ namespace WindowsFormsApp4
             this.FUNDS_TABLE.TabIndex = 28;
             this.FUNDS_TABLE.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.DarkSlateGray;
             // 
+            // dataGridViewTextBoxColumn18
+            // 
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn18.DefaultCellStyle = dataGridViewCellStyle8;
+            this.dataGridViewTextBoxColumn18.HeaderText = "USER ID";
+            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
+            // 
+            // dataGridViewTextBoxColumn19
+            // 
+            this.dataGridViewTextBoxColumn19.HeaderText = "ISSUE ID";
+            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
+            // 
+            // dataGridViewTextBoxColumn20
+            // 
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn20.DefaultCellStyle = dataGridViewCellStyle9;
+            this.dataGridViewTextBoxColumn20.HeaderText = "DESCRIPTION";
+            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
+            // 
+            // dataGridViewTextBoxColumn21
+            // 
+            this.dataGridViewTextBoxColumn21.HeaderText = "LOCATION";
+            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
+            // 
+            // dataGridViewTextBoxColumn22
+            // 
+            this.dataGridViewTextBoxColumn22.HeaderText = "FUND AMOUNT ";
+            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "ESTIMATED COST";
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.HeaderText = "BALANCE PAYMENT";
+            this.Column8.Name = "Column8";
+            // 
             // bunifuImageButton12
             // 
             this.bunifuImageButton12.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton12.Image")));
@@ -1208,7 +1295,6 @@ namespace WindowsFormsApp4
             // FeedbacksPage
             // 
             this.FeedbacksPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
-            this.FeedbacksPage.Controls.Add(this.FEEDBACK_TABLE);
             this.FeedbacksPage.Controls.Add(this.FEEDBACK_PANEL);
             this.FeedbacksPage.Location = new System.Drawing.Point(4, 4);
             this.FeedbacksPage.Name = "FeedbacksPage";
@@ -1217,80 +1303,195 @@ namespace WindowsFormsApp4
             this.FeedbacksPage.TabIndex = 5;
             this.FeedbacksPage.Text = "Feedbacks";
             // 
-            // FEEDBACK_TABLE
+            // FEEDBACK_PANEL
             // 
-            this.FEEDBACK_TABLE.AllowCustomTheming = false;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(223)))), ((int)(((byte)(223)))));
+            this.FEEDBACK_PANEL.Controls.Add(this.bunifuDataGridView2);
+            this.FEEDBACK_PANEL.Controls.Add(this.label12);
+            this.FEEDBACK_PANEL.Location = new System.Drawing.Point(6, 6);
+            this.FEEDBACK_PANEL.Name = "FEEDBACK_PANEL";
+            this.FEEDBACK_PANEL.Size = new System.Drawing.Size(941, 534);
+            this.FEEDBACK_PANEL.TabIndex = 28;
+            // 
+            // bunifuDataGridView2
+            // 
+            this.bunifuDataGridView2.AllowCustomTheming = false;
+            this.bunifuDataGridView2.AllowUserToDeleteRows = false;
+            this.bunifuDataGridView2.AllowUserToResizeColumns = false;
+            this.bunifuDataGridView2.AllowUserToResizeRows = false;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
-            this.FEEDBACK_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle12;
-            this.FEEDBACK_TABLE.AutoGenerateColumns = false;
-            this.FEEDBACK_TABLE.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.FEEDBACK_TABLE.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.FEEDBACK_TABLE.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FEEDBACK_TABLE.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.FEEDBACK_TABLE.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bunifuDataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle12;
+            this.bunifuDataGridView2.AutoGenerateColumns = false;
+            this.bunifuDataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bunifuDataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.bunifuDataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuDataGridView2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.bunifuDataGridView2.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
+            this.bunifuDataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.DodgerBlue;
             dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
             dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.FEEDBACK_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.FEEDBACK_TABLE.ColumnHeadersHeight = 40;
-            this.FEEDBACK_TABLE.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.advertismentidDataGridViewTextBoxColumn,
-            this.advertisementnameDataGridViewTextBoxColumn,
-            this.advertisementlinkDataGridViewTextBoxColumn,
-            this.advertisemnetdescriptionDataGridViewTextBoxColumn,
-            this.advertisementimageDataGridViewTextBoxColumn});
-            this.FEEDBACK_TABLE.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(223)))), ((int)(((byte)(223)))));
-            this.FEEDBACK_TABLE.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.FEEDBACK_TABLE.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.FEEDBACK_TABLE.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(178)))));
-            this.FEEDBACK_TABLE.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.FEEDBACK_TABLE.CurrentTheme.BackColor = System.Drawing.Color.Teal;
-            this.FEEDBACK_TABLE.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(216)))), ((int)(((byte)(216)))));
-            this.FEEDBACK_TABLE.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.Teal;
-            this.FEEDBACK_TABLE.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            this.FEEDBACK_TABLE.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.FEEDBACK_TABLE.CurrentTheme.Name = null;
-            this.FEEDBACK_TABLE.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            this.FEEDBACK_TABLE.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.FEEDBACK_TABLE.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
-            this.FEEDBACK_TABLE.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(178)))));
-            this.FEEDBACK_TABLE.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.FEEDBACK_TABLE.DataSource = this.advertismentBindingSource;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(178)))), ((int)(((byte)(178)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.FEEDBACK_TABLE.DefaultCellStyle = dataGridViewCellStyle14;
-            this.FEEDBACK_TABLE.EnableHeadersVisualStyles = false;
-            this.FEEDBACK_TABLE.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(216)))), ((int)(((byte)(216)))));
-            this.FEEDBACK_TABLE.HeaderBackColor = System.Drawing.Color.Teal;
-            this.FEEDBACK_TABLE.HeaderBgColor = System.Drawing.Color.Empty;
-            this.FEEDBACK_TABLE.HeaderForeColor = System.Drawing.Color.White;
-            this.FEEDBACK_TABLE.Location = new System.Drawing.Point(23, 57);
-            this.FEEDBACK_TABLE.Name = "FEEDBACK_TABLE";
-            this.FEEDBACK_TABLE.RowHeadersVisible = false;
-            this.FEEDBACK_TABLE.RowTemplate.Height = 40;
-            this.FEEDBACK_TABLE.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.FEEDBACK_TABLE.Size = new System.Drawing.Size(908, 475);
-            this.FEEDBACK_TABLE.TabIndex = 27;
-            this.FEEDBACK_TABLE.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Teal;
+            this.bunifuDataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            this.bunifuDataGridView2.ColumnHeadersHeight = 40;
+            this.bunifuDataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.advertismentidDataGridViewTextBoxColumn1,
+            this.adstitleDataGridViewTextBoxColumn1,
+            this.adstextDataGridViewTextBoxColumn1,
+            this.websitelinkDataGridViewTextBoxColumn1,
+            this.statusDataGridViewTextBoxColumn3,
+            this.useridDataGridViewTextBoxColumn3,
+            this.dateDataGridViewTextBoxColumn1,
+            this.elapsedDaysDataGridViewTextBoxColumn1,
+            this.imageAdDataGridViewImageColumn1,
+            this.Column1});
+            this.bunifuDataGridView2.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.bunifuDataGridView2.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.bunifuDataGridView2.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDataGridView2.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.bunifuDataGridView2.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.bunifuDataGridView2.CurrentTheme.BackColor = System.Drawing.Color.White;
+            this.bunifuDataGridView2.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.bunifuDataGridView2.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuDataGridView2.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            this.bunifuDataGridView2.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.bunifuDataGridView2.CurrentTheme.Name = null;
+            this.bunifuDataGridView2.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.bunifuDataGridView2.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.bunifuDataGridView2.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDataGridView2.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.bunifuDataGridView2.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.bunifuDataGridView2.DataSource = this.advertismentBindingSource6;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuDataGridView2.DefaultCellStyle = dataGridViewCellStyle15;
+            this.bunifuDataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.bunifuDataGridView2.EnableHeadersVisualStyles = false;
+            this.bunifuDataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.bunifuDataGridView2.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuDataGridView2.HeaderBgColor = System.Drawing.Color.Empty;
+            this.bunifuDataGridView2.HeaderForeColor = System.Drawing.Color.White;
+            this.bunifuDataGridView2.Location = new System.Drawing.Point(12, 66);
+            this.bunifuDataGridView2.Name = "bunifuDataGridView2";
+            this.bunifuDataGridView2.ReadOnly = true;
+            this.bunifuDataGridView2.RowHeadersVisible = false;
+            this.bunifuDataGridView2.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuDataGridView2.RowsDefaultCellStyle = dataGridViewCellStyle16;
+            this.bunifuDataGridView2.RowTemplate.Height = 40;
+            this.bunifuDataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.bunifuDataGridView2.Size = new System.Drawing.Size(912, 439);
+            this.bunifuDataGridView2.TabIndex = 27;
+            this.bunifuDataGridView2.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            this.bunifuDataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuDataGridView2_CellContentClick);
             // 
-            // FEEDBACK_PANEL
+            // advertismentidDataGridViewTextBoxColumn1
             // 
-            this.FEEDBACK_PANEL.Controls.Add(this.label12);
-            this.FEEDBACK_PANEL.Controls.Add(this.label11);
-            this.FEEDBACK_PANEL.Location = new System.Drawing.Point(6, 6);
-            this.FEEDBACK_PANEL.Name = "FEEDBACK_PANEL";
-            this.FEEDBACK_PANEL.Size = new System.Drawing.Size(941, 534);
-            this.FEEDBACK_PANEL.TabIndex = 28;
+            this.advertismentidDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.advertismentidDataGridViewTextBoxColumn1.DataPropertyName = "advertisment_id";
+            this.advertismentidDataGridViewTextBoxColumn1.DividerWidth = 1;
+            this.advertismentidDataGridViewTextBoxColumn1.HeaderText = "ID";
+            this.advertismentidDataGridViewTextBoxColumn1.Name = "advertismentidDataGridViewTextBoxColumn1";
+            this.advertismentidDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.advertismentidDataGridViewTextBoxColumn1.Width = 50;
+            // 
+            // adstitleDataGridViewTextBoxColumn1
+            // 
+            this.adstitleDataGridViewTextBoxColumn1.DataPropertyName = "Adstitle";
+            this.adstitleDataGridViewTextBoxColumn1.DividerWidth = 1;
+            this.adstitleDataGridViewTextBoxColumn1.HeaderText = "Adstitle";
+            this.adstitleDataGridViewTextBoxColumn1.Name = "adstitleDataGridViewTextBoxColumn1";
+            this.adstitleDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // adstextDataGridViewTextBoxColumn1
+            // 
+            this.adstextDataGridViewTextBoxColumn1.DataPropertyName = "Adstext";
+            this.adstextDataGridViewTextBoxColumn1.DividerWidth = 1;
+            this.adstextDataGridViewTextBoxColumn1.HeaderText = "Adstext";
+            this.adstextDataGridViewTextBoxColumn1.Name = "adstextDataGridViewTextBoxColumn1";
+            this.adstextDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // websitelinkDataGridViewTextBoxColumn1
+            // 
+            this.websitelinkDataGridViewTextBoxColumn1.DataPropertyName = "websitelink";
+            this.websitelinkDataGridViewTextBoxColumn1.DividerWidth = 1;
+            this.websitelinkDataGridViewTextBoxColumn1.HeaderText = "Link";
+            this.websitelinkDataGridViewTextBoxColumn1.Name = "websitelinkDataGridViewTextBoxColumn1";
+            this.websitelinkDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // statusDataGridViewTextBoxColumn3
+            // 
+            this.statusDataGridViewTextBoxColumn3.DataPropertyName = "Status";
+            this.statusDataGridViewTextBoxColumn3.DividerWidth = 1;
+            this.statusDataGridViewTextBoxColumn3.HeaderText = "Status";
+            this.statusDataGridViewTextBoxColumn3.Name = "statusDataGridViewTextBoxColumn3";
+            this.statusDataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // useridDataGridViewTextBoxColumn3
+            // 
+            this.useridDataGridViewTextBoxColumn3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.useridDataGridViewTextBoxColumn3.DataPropertyName = "User_id";
+            this.useridDataGridViewTextBoxColumn3.DividerWidth = 1;
+            this.useridDataGridViewTextBoxColumn3.HeaderText = "User_id";
+            this.useridDataGridViewTextBoxColumn3.Name = "useridDataGridViewTextBoxColumn3";
+            this.useridDataGridViewTextBoxColumn3.ReadOnly = true;
+            this.useridDataGridViewTextBoxColumn3.Width = 88;
+            // 
+            // dateDataGridViewTextBoxColumn1
+            // 
+            this.dateDataGridViewTextBoxColumn1.DataPropertyName = "Date";
+            this.dateDataGridViewTextBoxColumn1.DividerWidth = 1;
+            this.dateDataGridViewTextBoxColumn1.HeaderText = "Date";
+            this.dateDataGridViewTextBoxColumn1.Name = "dateDataGridViewTextBoxColumn1";
+            this.dateDataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // elapsedDaysDataGridViewTextBoxColumn1
+            // 
+            this.elapsedDaysDataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.elapsedDaysDataGridViewTextBoxColumn1.DataPropertyName = "Elapsed_Days";
+            this.elapsedDaysDataGridViewTextBoxColumn1.DividerWidth = 1;
+            this.elapsedDaysDataGridViewTextBoxColumn1.HeaderText = "Days";
+            this.elapsedDaysDataGridViewTextBoxColumn1.Name = "elapsedDaysDataGridViewTextBoxColumn1";
+            this.elapsedDaysDataGridViewTextBoxColumn1.ReadOnly = true;
+            this.elapsedDaysDataGridViewTextBoxColumn1.Width = 68;
+            // 
+            // imageAdDataGridViewImageColumn1
+            // 
+            this.imageAdDataGridViewImageColumn1.DataPropertyName = "ImageAd";
+            this.imageAdDataGridViewImageColumn1.DividerWidth = 1;
+            this.imageAdDataGridViewImageColumn1.HeaderText = "Image";
+            this.imageAdDataGridViewImageColumn1.Name = "imageAdDataGridViewImageColumn1";
+            this.imageAdDataGridViewImageColumn1.ReadOnly = true;
+            // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle14;
+            this.Column1.DividerWidth = 1;
+            this.Column1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Column1.HeaderText = "Options";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Column1.Text = "Options";
+            this.Column1.UseColumnTextForButtonValue = true;
+            // 
+            // advertismentBindingSource6
+            // 
+            this.advertismentBindingSource6.DataSource = typeof(WindowsFormsApp4.Model.Advertisment);
             // 
             // label12
             // 
@@ -1298,23 +1499,11 @@ namespace WindowsFormsApp4
             this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(46)))), ((int)(((byte)(59)))));
             this.label12.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(23, 18);
+            this.label12.Location = new System.Drawing.Point(8, 18);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(156, 22);
             this.label12.TabIndex = 22;
             this.label12.Text = "ADVERTISMENTS";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(416, 256);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(108, 22);
-            this.label11.TabIndex = 22;
-            this.label11.Text = "Total Issues";
             // 
             // ReportPage
             // 
@@ -1332,23 +1521,23 @@ namespace WindowsFormsApp4
             // REPORT_TABLE
             // 
             this.REPORT_TABLE.AllowCustomTheming = false;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.Black;
-            this.REPORT_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
+            this.REPORT_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
             this.REPORT_TABLE.AutoGenerateColumns = false;
             this.REPORT_TABLE.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.REPORT_TABLE.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.REPORT_TABLE.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.REPORT_TABLE.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.REPORT_TABLE.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.REPORT_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.REPORT_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.REPORT_TABLE.ColumnHeadersHeight = 40;
             this.REPORT_TABLE.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.reportidDataGridViewTextBoxColumn,
@@ -1373,14 +1562,14 @@ namespace WindowsFormsApp4
             this.REPORT_TABLE.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.REPORT_TABLE.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.REPORT_TABLE.DataSource = this.reportBindingSource;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle17.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.REPORT_TABLE.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.REPORT_TABLE.DefaultCellStyle = dataGridViewCellStyle19;
             this.REPORT_TABLE.EnableHeadersVisualStyles = false;
             this.REPORT_TABLE.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.REPORT_TABLE.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -1394,6 +1583,40 @@ namespace WindowsFormsApp4
             this.REPORT_TABLE.Size = new System.Drawing.Size(908, 475);
             this.REPORT_TABLE.TabIndex = 26;
             this.REPORT_TABLE.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            // 
+            // reportidDataGridViewTextBoxColumn
+            // 
+            this.reportidDataGridViewTextBoxColumn.DataPropertyName = "report_id";
+            this.reportidDataGridViewTextBoxColumn.HeaderText = "REPORT ID";
+            this.reportidDataGridViewTextBoxColumn.Name = "reportidDataGridViewTextBoxColumn";
+            // 
+            // userIDDataGridViewTextBoxColumn1
+            // 
+            this.userIDDataGridViewTextBoxColumn1.DataPropertyName = "user_ID";
+            this.userIDDataGridViewTextBoxColumn1.HeaderText = "USER ID";
+            this.userIDDataGridViewTextBoxColumn1.Name = "userIDDataGridViewTextBoxColumn1";
+            // 
+            // issueidDataGridViewTextBoxColumn1
+            // 
+            this.issueidDataGridViewTextBoxColumn1.DataPropertyName = "issue_id";
+            this.issueidDataGridViewTextBoxColumn1.HeaderText = "ISSUE ID";
+            this.issueidDataGridViewTextBoxColumn1.Name = "issueidDataGridViewTextBoxColumn1";
+            // 
+            // reporttextDataGridViewTextBoxColumn
+            // 
+            this.reporttextDataGridViewTextBoxColumn.DataPropertyName = "report_text";
+            this.reporttextDataGridViewTextBoxColumn.HeaderText = "REPORT";
+            this.reporttextDataGridViewTextBoxColumn.Name = "reporttextDataGridViewTextBoxColumn";
+            // 
+            // statusDataGridViewTextBoxColumn1
+            // 
+            this.statusDataGridViewTextBoxColumn1.DataPropertyName = "status";
+            this.statusDataGridViewTextBoxColumn1.HeaderText = "STATUS";
+            this.statusDataGridViewTextBoxColumn1.Name = "statusDataGridViewTextBoxColumn1";
+            // 
+            // reportBindingSource
+            // 
+            this.reportBindingSource.DataSource = typeof(WindowsFormsApp4.Model.Report);
             // 
             // bunifuImageButton10
             // 
@@ -1449,23 +1672,23 @@ namespace WindowsFormsApp4
             // USER_TABLE
             // 
             this.USER_TABLE.AllowCustomTheming = false;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.Black;
-            this.USER_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.Color.Black;
+            this.USER_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle20;
             this.USER_TABLE.AutoGenerateColumns = false;
             this.USER_TABLE.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.USER_TABLE.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.USER_TABLE.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.USER_TABLE.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.USER_TABLE.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.USER_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.USER_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle21;
             this.USER_TABLE.ColumnHeadersHeight = 40;
             this.USER_TABLE.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.useridDataGridViewTextBoxColumn,
@@ -1489,14 +1712,14 @@ namespace WindowsFormsApp4
             this.USER_TABLE.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.USER_TABLE.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.USER_TABLE.DataSource = this.userBindingSource;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle21.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.USER_TABLE.DefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.USER_TABLE.DefaultCellStyle = dataGridViewCellStyle23;
             this.USER_TABLE.EnableHeadersVisualStyles = false;
             this.USER_TABLE.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.USER_TABLE.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -1510,6 +1733,36 @@ namespace WindowsFormsApp4
             this.USER_TABLE.Size = new System.Drawing.Size(908, 445);
             this.USER_TABLE.TabIndex = 25;
             this.USER_TABLE.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            // 
+            // useridDataGridViewTextBoxColumn
+            // 
+            this.useridDataGridViewTextBoxColumn.DataPropertyName = "user_id";
+            this.useridDataGridViewTextBoxColumn.HeaderText = "USER ID";
+            this.useridDataGridViewTextBoxColumn.Name = "useridDataGridViewTextBoxColumn";
+            // 
+            // nameDataGridViewTextBoxColumn
+            // 
+            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn.HeaderText = "NAME";
+            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            // 
+            // emailaddressDataGridViewTextBoxColumn
+            // 
+            this.emailaddressDataGridViewTextBoxColumn.DataPropertyName = "email_address";
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.emailaddressDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle22;
+            this.emailaddressDataGridViewTextBoxColumn.HeaderText = "EMAIL";
+            this.emailaddressDataGridViewTextBoxColumn.Name = "emailaddressDataGridViewTextBoxColumn";
+            // 
+            // contactnoDataGridViewTextBoxColumn
+            // 
+            this.contactnoDataGridViewTextBoxColumn.DataPropertyName = "contact_no";
+            this.contactnoDataGridViewTextBoxColumn.HeaderText = "CONTACT";
+            this.contactnoDataGridViewTextBoxColumn.Name = "contactnoDataGridViewTextBoxColumn";
+            // 
+            // userBindingSource
+            // 
+            this.userBindingSource.DataSource = typeof(WindowsFormsApp4.Model.User);
             // 
             // IssuePage
             // 
@@ -1527,23 +1780,23 @@ namespace WindowsFormsApp4
             // ISSUE_TABLE
             // 
             this.ISSUE_TABLE.AllowCustomTheming = false;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.Black;
-            this.ISSUE_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.Color.Black;
+            this.ISSUE_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle24;
             this.ISSUE_TABLE.AutoGenerateColumns = false;
             this.ISSUE_TABLE.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ISSUE_TABLE.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.ISSUE_TABLE.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ISSUE_TABLE.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.ISSUE_TABLE.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ISSUE_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ISSUE_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
             this.ISSUE_TABLE.ColumnHeadersHeight = 40;
             this.ISSUE_TABLE.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.issueidDataGridViewTextBoxColumn,
@@ -1567,14 +1820,14 @@ namespace WindowsFormsApp4
             this.ISSUE_TABLE.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.ISSUE_TABLE.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.ISSUE_TABLE.DataSource = this.issueBindingSource;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.ISSUE_TABLE.DefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.ISSUE_TABLE.DefaultCellStyle = dataGridViewCellStyle28;
             this.ISSUE_TABLE.EnableHeadersVisualStyles = false;
             this.ISSUE_TABLE.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.ISSUE_TABLE.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -1589,6 +1842,39 @@ namespace WindowsFormsApp4
             this.ISSUE_TABLE.TabIndex = 25;
             this.ISSUE_TABLE.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             this.ISSUE_TABLE.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ISSUE_TABLE_CellContentClick);
+            // 
+            // issueidDataGridViewTextBoxColumn
+            // 
+            this.issueidDataGridViewTextBoxColumn.DataPropertyName = "issue_id";
+            this.issueidDataGridViewTextBoxColumn.HeaderText = "ISSUE ID";
+            this.issueidDataGridViewTextBoxColumn.Name = "issueidDataGridViewTextBoxColumn";
+            // 
+            // statusDataGridViewTextBoxColumn
+            // 
+            this.statusDataGridViewTextBoxColumn.DataPropertyName = "status";
+            this.statusDataGridViewTextBoxColumn.HeaderText = "STATUS";
+            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "issueStatement";
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle26;
+            this.dataGridViewTextBoxColumn1.HeaderText = "STATEMENT";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // issuedateDataGridViewTextBoxColumn
+            // 
+            this.issuedateDataGridViewTextBoxColumn.DataPropertyName = "issue_date";
+            dataGridViewCellStyle27.Format = "d";
+            dataGridViewCellStyle27.NullValue = null;
+            this.issuedateDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle27;
+            this.issuedateDataGridViewTextBoxColumn.HeaderText = "ISSUE DATE";
+            this.issuedateDataGridViewTextBoxColumn.Name = "issuedateDataGridViewTextBoxColumn";
+            // 
+            // issueBindingSource
+            // 
+            this.issueBindingSource.DataSource = typeof(WindowsFormsApp4.Model.Issue);
             // 
             // bunifuImageButton8
             // 
@@ -1626,23 +1912,23 @@ namespace WindowsFormsApp4
             // VOLUNTEER_TABLE
             // 
             this.VOLUNTEER_TABLE.AllowCustomTheming = false;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.Black;
-            this.VOLUNTEER_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
+            this.VOLUNTEER_TABLE.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle29;
             this.VOLUNTEER_TABLE.AutoGenerateColumns = false;
             this.VOLUNTEER_TABLE.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.VOLUNTEER_TABLE.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.VOLUNTEER_TABLE.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.VOLUNTEER_TABLE.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.VOLUNTEER_TABLE.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.VOLUNTEER_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.VOLUNTEER_TABLE.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle30;
             this.VOLUNTEER_TABLE.ColumnHeadersHeight = 40;
             this.VOLUNTEER_TABLE.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.volunteeridDataGridViewTextBoxColumn,
@@ -1668,14 +1954,14 @@ namespace WindowsFormsApp4
             this.VOLUNTEER_TABLE.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.VOLUNTEER_TABLE.Cursor = System.Windows.Forms.Cursors.Hand;
             this.VOLUNTEER_TABLE.DataSource = this.volunteerBindingSource2;
-            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle29.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle29.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle29.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle29.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle29.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle29.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.VOLUNTEER_TABLE.DefaultCellStyle = dataGridViewCellStyle29;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle31.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle31.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle31.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle31.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle31.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle31.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.VOLUNTEER_TABLE.DefaultCellStyle = dataGridViewCellStyle31;
             this.VOLUNTEER_TABLE.EnableHeadersVisualStyles = false;
             this.VOLUNTEER_TABLE.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.VOLUNTEER_TABLE.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -1691,6 +1977,40 @@ namespace WindowsFormsApp4
             this.VOLUNTEER_TABLE.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
             this.VOLUNTEER_TABLE.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.VOLUNTEER_TABLE_CellClick);
             this.VOLUNTEER_TABLE.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.VOLUNTEER_TABLE_CellContentClick);
+            // 
+            // volunteeridDataGridViewTextBoxColumn
+            // 
+            this.volunteeridDataGridViewTextBoxColumn.DataPropertyName = "volunteer_id";
+            this.volunteeridDataGridViewTextBoxColumn.HeaderText = "volunteer_id";
+            this.volunteeridDataGridViewTextBoxColumn.Name = "volunteeridDataGridViewTextBoxColumn";
+            // 
+            // nameDataGridViewTextBoxColumn1
+            // 
+            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "name";
+            this.nameDataGridViewTextBoxColumn1.HeaderText = "name";
+            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            // 
+            // emailDataGridViewTextBoxColumn
+            // 
+            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
+            this.emailDataGridViewTextBoxColumn.HeaderText = "email";
+            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
+            // 
+            // contactDataGridViewTextBoxColumn
+            // 
+            this.contactDataGridViewTextBoxColumn.DataPropertyName = "contact";
+            this.contactDataGridViewTextBoxColumn.HeaderText = "contact";
+            this.contactDataGridViewTextBoxColumn.Name = "contactDataGridViewTextBoxColumn";
+            // 
+            // cnicnoDataGridViewTextBoxColumn
+            // 
+            this.cnicnoDataGridViewTextBoxColumn.DataPropertyName = "cnic_no";
+            this.cnicnoDataGridViewTextBoxColumn.HeaderText = "cnic_no";
+            this.cnicnoDataGridViewTextBoxColumn.Name = "cnicnoDataGridViewTextBoxColumn";
+            // 
+            // volunteerBindingSource2
+            // 
+            this.volunteerBindingSource2.DataSource = typeof(WindowsFormsApp4.Model.Volunteer);
             // 
             // bunifuImageButton6
             // 
@@ -1744,10 +2064,10 @@ namespace WindowsFormsApp4
             this.Pages.Location = new System.Drawing.Point(251, 52);
             this.Pages.Multiline = true;
             this.Pages.Name = "Pages";
-            this.Pages.Page = this.SettingsPage;
-            this.Pages.PageIndex = 8;
-            this.Pages.PageName = "SettingsPage";
-            this.Pages.PageTitle = "Settings";
+            this.Pages.Page = this.FeedbacksPage;
+            this.Pages.PageIndex = 5;
+            this.Pages.PageName = "FeedbacksPage";
+            this.Pages.PageTitle = "Feedbacks";
             this.Pages.SelectedIndex = 0;
             this.Pages.Size = new System.Drawing.Size(963, 569);
             this.Pages.TabIndex = 3;
@@ -1907,7 +2227,6 @@ namespace WindowsFormsApp4
             this.feedbackspanel12.Name = "feedbackspanel12";
             this.feedbackspanel12.Size = new System.Drawing.Size(227, 135);
             this.feedbackspanel12.TabIndex = 42;
-            this.feedbackspanel12.Click += new System.EventHandler(this.feedbackspanel12_Click);
             this.feedbackspanel12.Paint += new System.Windows.Forms.PaintEventHandler(this.panel12_Paint);
             // 
             // label8
@@ -2047,13 +2366,14 @@ namespace WindowsFormsApp4
             this.bunifuPages1.Controls.Add(this.tabPage5);
             this.bunifuPages1.Controls.Add(this.tabPage6);
             this.bunifuPages1.Controls.Add(this.tabPage7);
+            this.bunifuPages1.Controls.Add(this.tabPage8);
             this.bunifuPages1.Location = new System.Drawing.Point(276, 71);
             this.bunifuPages1.Multiline = true;
             this.bunifuPages1.Name = "bunifuPages1";
-            this.bunifuPages1.Page = this.tabPage7;
-            this.bunifuPages1.PageIndex = 6;
-            this.bunifuPages1.PageName = "tabPage7";
-            this.bunifuPages1.PageTitle = "tabPage7";
+            this.bunifuPages1.Page = this.tabPage8;
+            this.bunifuPages1.PageIndex = 7;
+            this.bunifuPages1.PageName = "tabPage8";
+            this.bunifuPages1.PageTitle = "tabPage8";
             this.bunifuPages1.SelectedIndex = 0;
             this.bunifuPages1.Size = new System.Drawing.Size(662, 452);
             this.bunifuPages1.TabIndex = 43;
@@ -2152,7 +2472,7 @@ namespace WindowsFormsApp4
             this.bunifuButton1.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton1.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton1.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton1.ForeColor = System.Drawing.Color.White;
             this.bunifuButton1.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton1.IconMarginLeft = 11;
@@ -2404,7 +2724,7 @@ namespace WindowsFormsApp4
             this.bunifuButton2.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton2.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton2.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton2.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton2.ForeColor = System.Drawing.Color.White;
             this.bunifuButton2.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton2.IconMarginLeft = 11;
@@ -2636,7 +2956,7 @@ namespace WindowsFormsApp4
             this.bunifuButton3.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton3.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton3.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton3.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton3.ForeColor = System.Drawing.Color.White;
             this.bunifuButton3.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton3.IconMarginLeft = 11;
@@ -2866,7 +3186,7 @@ namespace WindowsFormsApp4
             this.bunifuButton4.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton4.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton4.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton4.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton4.ForeColor = System.Drawing.Color.White;
             this.bunifuButton4.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton4.IconMarginLeft = 11;
@@ -3169,7 +3489,7 @@ namespace WindowsFormsApp4
             this.bunifuButton5.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton5.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton5.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton5.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton5.ForeColor = System.Drawing.Color.White;
             this.bunifuButton5.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton5.IconMarginLeft = 11;
@@ -3399,7 +3719,7 @@ namespace WindowsFormsApp4
             this.bunifuButton6.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton6.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton6.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton6.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton6.ForeColor = System.Drawing.Color.White;
             this.bunifuButton6.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton6.IconMarginLeft = 11;
@@ -3643,7 +3963,7 @@ namespace WindowsFormsApp4
             this.bunifuButton7.DisabledFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.bunifuButton7.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton7.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
-            this.bunifuButton7.Font = new System.Drawing.Font("Comfortaa", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuButton7.ForeColor = System.Drawing.Color.White;
             this.bunifuButton7.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton7.IconMarginLeft = 11;
@@ -3788,6 +4108,16 @@ namespace WindowsFormsApp4
             this.label52.TabIndex = 1;
             this.label52.Text = "Bank Account ";
             // 
+            // tabPage8
+            // 
+            this.tabPage8.Location = new System.Drawing.Point(4, 4);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(654, 426);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "tabPage8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
             // panel15
             // 
             this.panel15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel15.BackgroundImage")));
@@ -3841,6 +4171,7 @@ namespace WindowsFormsApp4
             // 
             this.panel14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel14.BackgroundImage")));
             this.panel14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel14.Controls.Add(this.pictureBox33);
             this.panel14.Controls.Add(this.pictureBox8);
             this.panel14.Controls.Add(this.pictureBox7);
             this.panel14.Controls.Add(this.pictureBox6);
@@ -3850,6 +4181,18 @@ namespace WindowsFormsApp4
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(238, 217);
             this.panel14.TabIndex = 41;
+            // 
+            // pictureBox33
+            // 
+            this.pictureBox33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
+            this.pictureBox33.Location = new System.Drawing.Point(87, 139);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(65, 60);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox33.TabIndex = 6;
+            this.pictureBox33.TabStop = false;
+            this.pictureBox33.Click += new System.EventHandler(this.pictureBox33_Click);
             // 
             // pictureBox8
             // 
@@ -4014,8 +4357,8 @@ namespace WindowsFormsApp4
             // 
             // dataGridViewTextBoxColumn35
             // 
-            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn35.DefaultCellStyle = dataGridViewCellStyle30;
+            dataGridViewCellStyle32.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn35.DefaultCellStyle = dataGridViewCellStyle32;
             this.dataGridViewTextBoxColumn35.HeaderText = "DESCRIPTION";
             this.dataGridViewTextBoxColumn35.Name = "dataGridViewTextBoxColumn35";
             // 
@@ -4026,8 +4369,8 @@ namespace WindowsFormsApp4
             // 
             // dataGridViewTextBoxColumn33
             // 
-            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn33.DefaultCellStyle = dataGridViewCellStyle31;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewTextBoxColumn33.DefaultCellStyle = dataGridViewCellStyle33;
             this.dataGridViewTextBoxColumn33.HeaderText = "USER ID";
             this.dataGridViewTextBoxColumn33.Name = "dataGridViewTextBoxColumn33";
             // 
@@ -4122,23 +4465,23 @@ namespace WindowsFormsApp4
             // bunifuDataGridView3
             // 
             this.bunifuDataGridView3.AllowCustomTheming = false;
-            dataGridViewCellStyle32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle32.ForeColor = System.Drawing.Color.Black;
-            this.bunifuDataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle32;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black;
+            this.bunifuDataGridView3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
             this.bunifuDataGridView3.AutoGenerateColumns = false;
             this.bunifuDataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bunifuDataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
             this.bunifuDataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuDataGridView3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.bunifuDataGridView3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle33.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle33.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuDataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle33;
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuDataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
             this.bunifuDataGridView3.ColumnHeadersHeight = 40;
             this.bunifuDataGridView3.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
             this.bunifuDataGridView3.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
@@ -4157,14 +4500,14 @@ namespace WindowsFormsApp4
             this.bunifuDataGridView3.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
             this.bunifuDataGridView3.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.bunifuDataGridView3.DataSource = this.userBindingSource;
-            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle34.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.bunifuDataGridView3.DefaultCellStyle = dataGridViewCellStyle34;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.bunifuDataGridView3.DefaultCellStyle = dataGridViewCellStyle36;
             this.bunifuDataGridView3.EnableHeadersVisualStyles = false;
             this.bunifuDataGridView3.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
             this.bunifuDataGridView3.HeaderBackColor = System.Drawing.Color.DodgerBlue;
@@ -4194,8 +4537,8 @@ namespace WindowsFormsApp4
             // dataGridViewTextBoxColumn14
             // 
             this.dataGridViewTextBoxColumn14.DataPropertyName = "email_address";
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn14.DefaultCellStyle = dataGridViewCellStyle35;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn14.DefaultCellStyle = dataGridViewCellStyle37;
             this.dataGridViewTextBoxColumn14.HeaderText = "EMAIL";
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
             // 
@@ -4241,17 +4584,17 @@ namespace WindowsFormsApp4
             // dataGridViewTextBoxColumn11
             // 
             this.dataGridViewTextBoxColumn11.DataPropertyName = "issue_date";
-            dataGridViewCellStyle36.Format = "d";
-            dataGridViewCellStyle36.NullValue = null;
-            this.dataGridViewTextBoxColumn11.DefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle38.Format = "d";
+            dataGridViewCellStyle38.NullValue = null;
+            this.dataGridViewTextBoxColumn11.DefaultCellStyle = dataGridViewCellStyle38;
             this.dataGridViewTextBoxColumn11.HeaderText = "ISSUE DATE";
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
             // 
             // dataGridViewTextBoxColumn10
             // 
             this.dataGridViewTextBoxColumn10.DataPropertyName = "issueStatement";
-            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn10.DefaultCellStyle = dataGridViewCellStyle39;
             this.dataGridViewTextBoxColumn10.HeaderText = "STATEMENT";
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             // 
@@ -4391,25 +4734,25 @@ namespace WindowsFormsApp4
             // dataGridViewTextBoxColumn43
             // 
             this.dataGridViewTextBoxColumn43.DataPropertyName = "Issuedate";
-            dataGridViewCellStyle38.Format = "d";
-            dataGridViewCellStyle38.NullValue = null;
-            this.dataGridViewTextBoxColumn43.DefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle40.Format = "d";
+            dataGridViewCellStyle40.NullValue = null;
+            this.dataGridViewTextBoxColumn43.DefaultCellStyle = dataGridViewCellStyle40;
             this.dataGridViewTextBoxColumn43.HeaderText = "Issuedate";
             this.dataGridViewTextBoxColumn43.Name = "dataGridViewTextBoxColumn43";
             // 
             // dataGridViewTextBoxColumn42
             // 
             this.dataGridViewTextBoxColumn42.DataPropertyName = "location_name";
-            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn42.DefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn42.DefaultCellStyle = dataGridViewCellStyle41;
             this.dataGridViewTextBoxColumn42.HeaderText = "location_name";
             this.dataGridViewTextBoxColumn42.Name = "dataGridViewTextBoxColumn42";
             // 
             // dataGridViewTextBoxColumn41
             // 
             this.dataGridViewTextBoxColumn41.DataPropertyName = "issueStatement";
-            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn41.DefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn41.DefaultCellStyle = dataGridViewCellStyle42;
             this.dataGridViewTextBoxColumn41.HeaderText = "issueStatement";
             this.dataGridViewTextBoxColumn41.Name = "dataGridViewTextBoxColumn41";
             // 
@@ -4419,112 +4762,21 @@ namespace WindowsFormsApp4
             this.dataGridViewTextBoxColumn40.HeaderText = "issue_id";
             this.dataGridViewTextBoxColumn40.Name = "dataGridViewTextBoxColumn40";
             // 
-            // volunteeridDataGridViewTextBoxColumn
+            // advertismentBindingSource5
             // 
-            this.volunteeridDataGridViewTextBoxColumn.DataPropertyName = "volunteer_id";
-            this.volunteeridDataGridViewTextBoxColumn.HeaderText = "volunteer_id";
-            this.volunteeridDataGridViewTextBoxColumn.Name = "volunteeridDataGridViewTextBoxColumn";
+            this.advertismentBindingSource5.DataSource = typeof(WindowsFormsApp4.Model.Advertisment);
             // 
-            // nameDataGridViewTextBoxColumn1
+            // advertismentBindingSource4
             // 
-            this.nameDataGridViewTextBoxColumn1.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn1.HeaderText = "name";
-            this.nameDataGridViewTextBoxColumn1.Name = "nameDataGridViewTextBoxColumn1";
+            this.advertismentBindingSource4.DataSource = typeof(WindowsFormsApp4.Model.Advertisment);
             // 
-            // emailDataGridViewTextBoxColumn
+            // advertismentBindingSource2
             // 
-            this.emailDataGridViewTextBoxColumn.DataPropertyName = "email";
-            this.emailDataGridViewTextBoxColumn.HeaderText = "email";
-            this.emailDataGridViewTextBoxColumn.Name = "emailDataGridViewTextBoxColumn";
-            // 
-            // contactDataGridViewTextBoxColumn
-            // 
-            this.contactDataGridViewTextBoxColumn.DataPropertyName = "contact";
-            this.contactDataGridViewTextBoxColumn.HeaderText = "contact";
-            this.contactDataGridViewTextBoxColumn.Name = "contactDataGridViewTextBoxColumn";
-            // 
-            // cnicnoDataGridViewTextBoxColumn
-            // 
-            this.cnicnoDataGridViewTextBoxColumn.DataPropertyName = "cnic_no";
-            this.cnicnoDataGridViewTextBoxColumn.HeaderText = "cnic_no";
-            this.cnicnoDataGridViewTextBoxColumn.Name = "cnicnoDataGridViewTextBoxColumn";
-            // 
-            // volunteerBindingSource2
-            // 
-            this.volunteerBindingSource2.DataSource = typeof(WindowsFormsApp4.Model.Volunteer);
-            // 
-            // issueBindingSource
-            // 
-            this.issueBindingSource.DataSource = typeof(WindowsFormsApp4.Model.Issue);
-            // 
-            // userBindingSource
-            // 
-            this.userBindingSource.DataSource = typeof(WindowsFormsApp4.Model.User);
-            // 
-            // reportBindingSource
-            // 
-            this.reportBindingSource.DataSource = typeof(WindowsFormsApp4.Model.Report);
-            // 
-            // advertismentidDataGridViewTextBoxColumn
-            // 
-            this.advertismentidDataGridViewTextBoxColumn.DataPropertyName = "advertisment_id";
-            this.advertismentidDataGridViewTextBoxColumn.HeaderText = "AD_ID";
-            this.advertismentidDataGridViewTextBoxColumn.Name = "advertismentidDataGridViewTextBoxColumn";
-            // 
-            // advertisementnameDataGridViewTextBoxColumn
-            // 
-            this.advertisementnameDataGridViewTextBoxColumn.DataPropertyName = "advertisement_name";
-            this.advertisementnameDataGridViewTextBoxColumn.HeaderText = "AD_NAME";
-            this.advertisementnameDataGridViewTextBoxColumn.Name = "advertisementnameDataGridViewTextBoxColumn";
-            // 
-            // advertisementlinkDataGridViewTextBoxColumn
-            // 
-            this.advertisementlinkDataGridViewTextBoxColumn.DataPropertyName = "advertisement_link";
-            this.advertisementlinkDataGridViewTextBoxColumn.HeaderText = "AD_LINK";
-            this.advertisementlinkDataGridViewTextBoxColumn.Name = "advertisementlinkDataGridViewTextBoxColumn";
-            // 
-            // advertisemnetdescriptionDataGridViewTextBoxColumn
-            // 
-            this.advertisemnetdescriptionDataGridViewTextBoxColumn.DataPropertyName = "advertisemnet_description";
-            this.advertisemnetdescriptionDataGridViewTextBoxColumn.HeaderText = "DESCRIPPTION";
-            this.advertisemnetdescriptionDataGridViewTextBoxColumn.Name = "advertisemnetdescriptionDataGridViewTextBoxColumn";
-            // 
-            // advertisementimageDataGridViewTextBoxColumn
-            // 
-            this.advertisementimageDataGridViewTextBoxColumn.DataPropertyName = "advertisement_image";
-            this.advertisementimageDataGridViewTextBoxColumn.HeaderText = "IMAGE";
-            this.advertisementimageDataGridViewTextBoxColumn.Name = "advertisementimageDataGridViewTextBoxColumn";
+            this.advertismentBindingSource2.DataSource = typeof(WindowsFormsApp4.Model.Advertisment);
             // 
             // advertismentBindingSource
             // 
             this.advertismentBindingSource.DataSource = typeof(WindowsFormsApp4.Model.Advertisment);
-            // 
-            // issueidDataGridViewTextBoxColumn2
-            // 
-            this.issueidDataGridViewTextBoxColumn2.DataPropertyName = "issue_id";
-            this.issueidDataGridViewTextBoxColumn2.HeaderText = "issue_id";
-            this.issueidDataGridViewTextBoxColumn2.Name = "issueidDataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "issueStatement";
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn2.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dataGridViewTextBoxColumn2.HeaderText = "issueStatement";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // issuedateDataGridViewTextBoxColumn1
-            // 
-            this.issuedateDataGridViewTextBoxColumn1.DataPropertyName = "Issuedate";
-            dataGridViewCellStyle4.Format = "d";
-            dataGridViewCellStyle4.NullValue = null;
-            this.issuedateDataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle4;
-            this.issuedateDataGridViewTextBoxColumn1.HeaderText = "Issuedate";
-            this.issuedateDataGridViewTextBoxColumn1.Name = "issuedateDataGridViewTextBoxColumn1";
-            // 
-            // resolvedIssuesBindingSource
-            // 
-            this.resolvedIssuesBindingSource.DataSource = typeof(WindowsFormsApp4.Model.ResolvedIssues);
             // 
             // volunteerBindingSource
             // 
@@ -4534,129 +4786,13 @@ namespace WindowsFormsApp4
             // 
             this.volunteerBindingSource1.DataSource = typeof(WindowsFormsApp4.Model.Volunteer);
             // 
-            // issueidDataGridViewTextBoxColumn
+            // advertismentBindingSource1
             // 
-            this.issueidDataGridViewTextBoxColumn.DataPropertyName = "issue_id";
-            this.issueidDataGridViewTextBoxColumn.HeaderText = "ISSUE ID";
-            this.issueidDataGridViewTextBoxColumn.Name = "issueidDataGridViewTextBoxColumn";
+            this.advertismentBindingSource1.DataSource = typeof(WindowsFormsApp4.Model.Advertisment);
             // 
-            // statusDataGridViewTextBoxColumn
+            // advertismentBindingSource3
             // 
-            this.statusDataGridViewTextBoxColumn.DataPropertyName = "status";
-            this.statusDataGridViewTextBoxColumn.HeaderText = "STATUS";
-            this.statusDataGridViewTextBoxColumn.Name = "statusDataGridViewTextBoxColumn";
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "issueStatement";
-            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle24;
-            this.dataGridViewTextBoxColumn1.HeaderText = "STATEMENT";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // issuedateDataGridViewTextBoxColumn
-            // 
-            this.issuedateDataGridViewTextBoxColumn.DataPropertyName = "issue_date";
-            dataGridViewCellStyle25.Format = "d";
-            dataGridViewCellStyle25.NullValue = null;
-            this.issuedateDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle25;
-            this.issuedateDataGridViewTextBoxColumn.HeaderText = "ISSUE DATE";
-            this.issuedateDataGridViewTextBoxColumn.Name = "issuedateDataGridViewTextBoxColumn";
-            // 
-            // useridDataGridViewTextBoxColumn
-            // 
-            this.useridDataGridViewTextBoxColumn.DataPropertyName = "user_id";
-            this.useridDataGridViewTextBoxColumn.HeaderText = "USER ID";
-            this.useridDataGridViewTextBoxColumn.Name = "useridDataGridViewTextBoxColumn";
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "NAME";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // emailaddressDataGridViewTextBoxColumn
-            // 
-            this.emailaddressDataGridViewTextBoxColumn.DataPropertyName = "email_address";
-            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.emailaddressDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle20;
-            this.emailaddressDataGridViewTextBoxColumn.HeaderText = "EMAIL";
-            this.emailaddressDataGridViewTextBoxColumn.Name = "emailaddressDataGridViewTextBoxColumn";
-            // 
-            // contactnoDataGridViewTextBoxColumn
-            // 
-            this.contactnoDataGridViewTextBoxColumn.DataPropertyName = "contact_no";
-            this.contactnoDataGridViewTextBoxColumn.HeaderText = "CONTACT";
-            this.contactnoDataGridViewTextBoxColumn.Name = "contactnoDataGridViewTextBoxColumn";
-            // 
-            // reportidDataGridViewTextBoxColumn
-            // 
-            this.reportidDataGridViewTextBoxColumn.DataPropertyName = "report_id";
-            this.reportidDataGridViewTextBoxColumn.HeaderText = "REPORT ID";
-            this.reportidDataGridViewTextBoxColumn.Name = "reportidDataGridViewTextBoxColumn";
-            // 
-            // userIDDataGridViewTextBoxColumn1
-            // 
-            this.userIDDataGridViewTextBoxColumn1.DataPropertyName = "user_ID";
-            this.userIDDataGridViewTextBoxColumn1.HeaderText = "USER ID";
-            this.userIDDataGridViewTextBoxColumn1.Name = "userIDDataGridViewTextBoxColumn1";
-            // 
-            // issueidDataGridViewTextBoxColumn1
-            // 
-            this.issueidDataGridViewTextBoxColumn1.DataPropertyName = "issue_id";
-            this.issueidDataGridViewTextBoxColumn1.HeaderText = "ISSUE ID";
-            this.issueidDataGridViewTextBoxColumn1.Name = "issueidDataGridViewTextBoxColumn1";
-            // 
-            // reporttextDataGridViewTextBoxColumn
-            // 
-            this.reporttextDataGridViewTextBoxColumn.DataPropertyName = "report_text";
-            this.reporttextDataGridViewTextBoxColumn.HeaderText = "REPORT";
-            this.reporttextDataGridViewTextBoxColumn.Name = "reporttextDataGridViewTextBoxColumn";
-            // 
-            // statusDataGridViewTextBoxColumn1
-            // 
-            this.statusDataGridViewTextBoxColumn1.DataPropertyName = "status";
-            this.statusDataGridViewTextBoxColumn1.HeaderText = "STATUS";
-            this.statusDataGridViewTextBoxColumn1.Name = "statusDataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn18
-            // 
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewTextBoxColumn18.DefaultCellStyle = dataGridViewCellStyle8;
-            this.dataGridViewTextBoxColumn18.HeaderText = "USER ID";
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            // 
-            // dataGridViewTextBoxColumn19
-            // 
-            this.dataGridViewTextBoxColumn19.HeaderText = "ISSUE ID";
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            // 
-            // dataGridViewTextBoxColumn20
-            // 
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn20.DefaultCellStyle = dataGridViewCellStyle9;
-            this.dataGridViewTextBoxColumn20.HeaderText = "DESCRIPTION";
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.HeaderText = "LOCATION";
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.HeaderText = "FUND AMOUNT ";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "ESTIMATED COST";
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "BALANCE PAYMENT";
-            this.Column8.Name = "Column8";
+            this.advertismentBindingSource3.DataSource = typeof(WindowsFormsApp4.Model.Advertisment);
             // 
             // Dashboard
             // 
@@ -4686,26 +4822,32 @@ namespace WindowsFormsApp4
             this.panel3.PerformLayout();
             this.ResolvedIssuesPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.RESOLVE_ISSUES_TABLE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.resolvedIssuesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton13)).EndInit();
             this.FundsPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.FUNDS_TABLE)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton12)).EndInit();
             this.FeedbacksPage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.FEEDBACK_TABLE)).EndInit();
             this.FEEDBACK_PANEL.ResumeLayout(false);
             this.FEEDBACK_PANEL.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource6)).EndInit();
             this.ReportPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.REPORT_TABLE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.reportBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton10)).EndInit();
             this.UserPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton9)).EndInit();
             this.USER_PANEL.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.USER_TABLE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).EndInit();
             this.IssuePage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ISSUE_TABLE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.issueBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton8)).EndInit();
             this.VolunteersPages.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.VOLUNTEER_TABLE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton6)).EndInit();
             this.VOLUNTEER_PANEL.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton7)).EndInit();
@@ -4799,20 +4941,21 @@ namespace WindowsFormsApp4
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.issueBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.reportBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.resolvedIssuesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.volunteerBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.advertismentBindingSource3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -4887,7 +5030,6 @@ namespace WindowsFormsApp4
         private Bunifu.UI.WinForms.BunifuDataGridView VOLUNTEER_TABLE;
         private Bunifu.UI.WinForms.BunifuDataGridView USER_TABLE;
         private Bunifu.UI.WinForms.BunifuDataGridView REPORT_TABLE;
-        private Bunifu.UI.WinForms.BunifuDataGridView FEEDBACK_TABLE;
         private Bunifu.UI.WinForms.BunifuDataGridView FUNDS_TABLE;
         private Bunifu.UI.WinForms.BunifuDataGridView RESOLVE_ISSUES_TABLE;
         private System.Windows.Forms.Panel VOLUNTEER_PANEL;
@@ -4906,11 +5048,6 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.BindingSource reportBindingSource;
         private System.Windows.Forms.BindingSource advertismentBindingSource;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn advertismentidDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn advertisementnameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn advertisementlinkDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn advertisemnetdescriptionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn advertisementimageDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource resolvedIssuesBindingSource;
         private System.Windows.Forms.BindingSource volunteerBindingSource2;
         private System.Windows.Forms.BindingSource volunteerBindingSource1;
@@ -4920,7 +5057,6 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.DataGridViewTextBoxColumn contactDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn cnicnoDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
         private System.Windows.Forms.DataGridViewTextBoxColumn issueidDataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn locationnameDataGridViewTextBoxColumn;
@@ -4984,105 +5120,6 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn42;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn41;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn40;
-        private Bunifu.UI.WinForms.BunifuPages bunifuPages1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Panel panel5;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
-        private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TabPage tabPage7;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox3;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox4;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton3;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox5;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox6;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton4;
-        private System.Windows.Forms.PictureBox pictureBox22;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox7;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox8;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.PictureBox pictureBox25;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.PictureBox pictureBox26;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox9;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.PictureBox pictureBox28;
-        private System.Windows.Forms.Label label35;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton5;
-        private System.Windows.Forms.PictureBox pictureBox27;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox10;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.PictureBox pictureBox29;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.PictureBox pictureBox30;
-        private System.Windows.Forms.PictureBox pictureBox24;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton6;
-        private System.Windows.Forms.PictureBox pictureBox31;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox11;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox12;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.PictureBox pictureBox32;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton7;
-        private System.Windows.Forms.PictureBox pictureBox34;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox13;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox14;
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label52;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
@@ -5103,5 +5140,123 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn issuedateDataGridViewTextBoxColumn;
+        private Bunifu.UI.WinForms.BunifuPages bunifuPages1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton1;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton2;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox3;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox4;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton3;
+        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureBox19;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox5;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox6;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton4;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox7;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox8;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox9;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.Label label35;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton5;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox10;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label44;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton6;
+        private System.Windows.Forms.PictureBox pictureBox31;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox11;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox12;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.PictureBox pictureBox36;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton bunifuButton7;
+        private System.Windows.Forms.PictureBox pictureBox34;
+        private System.Windows.Forms.PictureBox pictureBox35;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox13;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox14;
+        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.BindingSource advertismentBindingSource1;
+        private System.Windows.Forms.BindingSource advertismentBindingSource2;
+        private System.Windows.Forms.BindingSource advertismentBindingSource3;
+        private System.Windows.Forms.BindingSource advertismentBindingSource4;
+        private System.Windows.Forms.BindingSource advertismentBindingSource5;
+        private System.Windows.Forms.BindingSource advertismentBindingSource6;
+        private Bunifu.UI.WinForms.BunifuDataGridView bunifuDataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn advertismentidDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn adstitleDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn adstextDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn websitelinkDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn statusDataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn useridDataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn elapsedDaysDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewImageColumn imageAdDataGridViewImageColumn1;
+        private System.Windows.Forms.DataGridViewButtonColumn Column1;
     }
 }

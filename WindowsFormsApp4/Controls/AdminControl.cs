@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -32,5 +34,23 @@ namespace WindowsFormsApp4.Controls
 
         }
 
+        internal async static Task<List<Message>> SendMessage(string msgtext)
+        {
+            HttpClient client = new HttpClient();
+            string username = Admin_info_holder.name + "-" + "Admin" + "-" + Admin_info_holder.admin_id+ ": ";
+            string uri = Model.User.baseuri + "/api/volunteer/sendmessage/?id_name=" + username + "&message=" + msgtext;
+            var response = await client.GetStringAsync(uri);
+            var message = JsonConvert.DeserializeObject<List<Message>>(response);
+            return message;
+        }
+
+
+
+    }
+
+    public class Message
+    {
+        public string message { get; set; }
+        public string user_name_id { get; set; }
     }
 }

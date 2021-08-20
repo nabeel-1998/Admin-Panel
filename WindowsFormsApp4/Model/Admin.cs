@@ -22,8 +22,12 @@ namespace WindowsFormsApp4.Model
             HttpClient client = new HttpClient();
             string uri = User.baseuri + "/api/admin/adminlogin/?name=" + name + "&password=" + password;
             var response = await client.GetAsync(uri);
+            var another_response = await client.GetStringAsync(uri);
             if (response.StatusCode == HttpStatusCode.Accepted)
             {
+                
+                var adminObject = JsonConvert.DeserializeObject<Admin>(another_response);
+                Admin_info_holder.GetInfo(adminObject);
                 return true;
             }
             else

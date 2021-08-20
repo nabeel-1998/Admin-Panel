@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Bunifu.UI.WinForms;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,10 +23,19 @@ namespace WindowsFormsApp4
             volunteerBindingSource2.AddingNew += VolunteerBindingSource2_AddingNew;
             reportBindingSource.AddingNew += ReportBindingSource_AddingNew;
             advertismentBindingSource.AddingNew += AdvertismentBindingSource_AddingNew;
+            
             resolvedIssuesBindingSource.AddingNew += ResolvedIssuesBindingSource_AddingNew;
 
 
 
+        }
+
+        private void AdvertismentBindingSource_AddingNew(object sender, AddingNewEventArgs e)
+        {
+            if(bunifuDataGridView2.Rows.Count==advertismentBindingSource.Count)
+            {
+                advertismentBindingSource.RemoveAt(advertismentBindingSource.Count - 1);
+            }
         }
 
         private void VolunteerBindingSource2_AddingNew(object sender, AddingNewEventArgs e)
@@ -44,13 +54,7 @@ namespace WindowsFormsApp4
             }
         }
 
-        private void AdvertismentBindingSource_AddingNew(object sender, AddingNewEventArgs e)
-        {
-            if (FEEDBACK_TABLE.Rows.Count == advertismentBindingSource.Count)
-            {
-                advertismentBindingSource.RemoveAt(advertismentBindingSource.Count - 1);
-            }
-        }
+       
 
         private void ReportBindingSource_AddingNew(object sender, AddingNewEventArgs e)
         {
@@ -205,12 +209,7 @@ namespace WindowsFormsApp4
             REPORT_TABLE.DataSource = await WindowsFormsApp4.Controls.ReportControl.reportdata();
         }
 
-        private async void btnFeedbacks_Click(object sender, EventArgs e)
-        {
-            indicator.Top = ((Control)sender).Top;
-            Pages.SetPage("Feedbacks");
-            FEEDBACK_TABLE.DataSource = await WindowsFormsApp4.Controls.AdvertismentControl.advertismentdata();
-        }
+       
 
         private void btnFunds_Click(object sender, EventArgs e)
         {
@@ -358,19 +357,12 @@ namespace WindowsFormsApp4
             indicator.SetBounds(1, 392, 4, 51);// x axis, y axis, width,height of indicator panel
             btnReports.selected = true;
             btnDashboard.selected = false;
-            FEEDBACK_TABLE.DataSource = await WindowsFormsApp4.Controls.AdvertismentControl.advertismentdata();
+           
 
         }
 
-        private async void feedbackspanel12_Click(object sender, EventArgs e)
-        {
-            Pages.SetPage("Feedbacks");
-            indicator.SetBounds(1, 446, 4, 51);// x axis, y axis, width,height of indicator panel
-            btnFeedbacks.selected = true;
-            btnDashboard.selected = false;
-            FEEDBACK_TABLE.DataSource = await WindowsFormsApp4.Controls.AdvertismentControl.advertismentdata();
-
-        }
+       
+        
 
         private void fundspanel11_Click(object sender, EventArgs e)
         {
@@ -562,6 +554,40 @@ namespace WindowsFormsApp4
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void contacttoadmin_Click(object sender, EventArgs e)
+        {
+            bunifuPages1.SetPage(tabPage8);
+        }
+
+        private void pictureBox33_Click(object sender, EventArgs e)
+        {
+            ContactToAdmin chatform = new ContactToAdmin();
+            chatform.ShowDialog();
+        }
+
+        private void btnFeedbacks_Click(object sender, EventArgs e)
+        {
+            indicator.Top = ((Control)sender).Top;
+            Pages.SetPage("Feedbacks");
+            indicator.SetBounds(1, 446, 4, 51);// x axis, y axis, width,height of indicator panel
+            btnFeedbacks.selected = true;
+            btnDashboard.selected = false;
+            bunifuDataGridView2.DataSource = adList;
+        }
+
+        private void bunifuDataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var senderGrid = (BunifuDataGridView)sender;
+
+            if (senderGrid.Columns[e.ColumnIndex] is DataGridViewButtonColumn &&
+                e.RowIndex >= 0)
+            {
+                var Ad = (Model.Advertisment)senderGrid.Rows[e.RowIndex].DataBoundItem;
+                adtitle newform = new adtitle(Ad);
+                newform.ShowDialog();
+            }
         }
     }
 }
