@@ -39,9 +39,9 @@ namespace WindowsFormsApp4
                 if(result)
                 {
                     MessageBox.Show("Status Updated successfully");
-                }
-                else
-                {
+            }
+            else
+            {
                     MessageBox.Show("Status Not Updated!");
                 }
             }
