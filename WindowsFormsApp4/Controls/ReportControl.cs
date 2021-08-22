@@ -10,8 +10,14 @@ namespace WindowsFormsApp4.Controls
     class ReportControl
     {
        public static async Task<List<Model.Report>> reportdata()
-        {
+       {
             var list = await Model.Report.getallreports();
+            return list;
+       }
+
+        public async static Task<List<Model.Volunteer_Report>> VolunteerReportData()
+        {
+            var list = await Model.Volunteer_Report.getallreports();
             return list;
         }
     }

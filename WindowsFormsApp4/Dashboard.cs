@@ -25,9 +25,18 @@ namespace WindowsFormsApp4
             advertismentBindingSource.AddingNew += AdvertismentBindingSource_AddingNew;
             
             resolvedIssuesBindingSource.AddingNew += ResolvedIssuesBindingSource_AddingNew;
+            volunteerReportBindingSource.AddingNew += VolunteerReportBindingSource_AddingNew;
 
 
 
+        }
+
+        private void VolunteerReportBindingSource_AddingNew(object sender, AddingNewEventArgs e)
+        {
+            if (bunifuDataGridView1.Rows.Count == volunteerReportBindingSource.Count)
+            {
+                volunteerReportBindingSource.RemoveAt(volunteerReportBindingSource.Count - 1);
+            }
         }
 
         private void AdvertismentBindingSource_AddingNew(object sender, AddingNewEventArgs e)
@@ -96,39 +105,55 @@ namespace WindowsFormsApp4
         List<Model.Report> reportList;
         List<Model.Funds> fundslist;
         List<Model.Issue> resolvelist;
+        List<Model.Volunteer_Report> volReportList;
 
 
         
         private async void Dashboard_Load(object sender, EventArgs e)
         {
+            
             DateTime d = DateTime.Now;
             label9.Text = DateTime.Now.ToShortDateString();
             label10.Text = DateTime.Now.ToShortTimeString();
 
-            volunteerList = await WindowsFormsApp4.Controls.VolunteerControl.volunteerdata();
-            label1.Text = volunteerList.Count.ToString();
-            issueList = await WindowsFormsApp4.Controls.IssueControl.issuedata();
-            label2.Text = issueList.Count.ToString();
-            TotalIsssuesValue.Text = label2.Text;
-
-            userList = await WindowsFormsApp4.Controls.UserControl.userdata();
-            label3.Text = userList.Count.ToString();
-            reportList = await WindowsFormsApp4.Controls.ReportControl.reportdata();
-            label4.Text = reportList.Count.ToString();
-            adList = await WindowsFormsApp4.Controls.AdvertismentControl.advertismentdata();
-            label8.Text = adList.Count.ToString();
-                                                                                                                                                                                                                                                                                                                                                                                                                                                     resolvelist = await WindowsFormsApp4.Controls.IssueControl.issuedata();
-            int rIC = 0;
-            foreach(var item in resolvelist)
+            try
             {
-                if(item.isresolved==1)
+                volunteerList = await WindowsFormsApp4.Controls.VolunteerControl.volunteerdata();
+                label1.Text = volunteerList.Count.ToString();
+                issueList = await WindowsFormsApp4.Controls.IssueControl.issuedata();
+                label2.Text = issueList.Count.ToString();
+                TotalIsssuesValue.Text = label2.Text;
+
+                userList = await WindowsFormsApp4.Controls.UserControl.userdata();
+                label3.Text = userList.Count.ToString();
+                reportList = await WindowsFormsApp4.Controls.ReportControl.reportdata();
+                label4.Text = reportList.Count.ToString();
+                adList = await WindowsFormsApp4.Controls.AdvertismentControl.advertismentdata();
+                label8.Text = adList.Count.ToString();
+                resolvelist = await WindowsFormsApp4.Controls.IssueControl.issuedata();
+                int rIC = 0;
+                foreach (var item in resolvelist)
                 {
-                    rIC += 1;
+                    if (item.isresolved == 1)
+                    {
+                        rIC += 1;
+                    }
                 }
+                label6.Text = rIC.ToString();
+                fundList = await WindowsFormsApp4.Controls.FundsControl.funddata();
+                label7.Text = fundList.Count.ToString();
             }
-            label6.Text = rIC.ToString();
-            fundList = await WindowsFormsApp4.Controls.FundsControl.funddata();
-            label7.Text = fundList.Count.ToString();
+            catch(Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                LoaderImage.Visible = false;
+            }
+           
+           
+
             
             
             
@@ -207,6 +232,7 @@ namespace WindowsFormsApp4
             indicator.Top = ((Control)sender).Top;
             Pages.SetPage("Reports");
             REPORT_TABLE.DataSource = await WindowsFormsApp4.Controls.ReportControl.reportdata();
+            bunifuDataGridView1.DataSource = await WindowsFormsApp4.Controls.ReportControl.VolunteerReportData();
         }
 
        
@@ -405,7 +431,16 @@ namespace WindowsFormsApp4
 
         private void ISSUE_TABLE_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            var senderGrid = (BunifuDataGridView)sender;
 
+            if (senderGrid.Columns[e.ColumnIndex] is DataGridViewButtonColumn &&
+                e.RowIndex >= 0)
+            {
+                var Ad = (Model.Issue)senderGrid.Rows[e.RowIndex].DataBoundItem;
+                Issue_Info iInfo = new Issue_Info(Ad);
+                iInfo.ShowDialog();
+
+            }
         }
 
         private void FUNDS_PANEL_Paint(object sender, PaintEventArgs e)
@@ -587,6 +622,47 @@ namespace WindowsFormsApp4
                 var Ad = (Model.Advertisment)senderGrid.Rows[e.RowIndex].DataBoundItem;
                 adtitle newform = new adtitle(Ad);
                 newform.ShowDialog();
+            }
+        }
+
+        private void refreshButton_Click(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+       
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("User");
+            bunifuFlatButton1.selected = true;
+            bunifuFlatButton2.selected = false;
+        }
+
+        private void bunifuFlatButton2_Click_1(object sender, EventArgs e)
+        {
+            bunifuPages2.SetPage("Volunteer");
+            bunifuFlatButton1.selected = false;
+            bunifuFlatButton2.selected = true;
+        }
+
+        private void USER_TABLE_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var senderGrid = (BunifuDataGridView)sender;
+
+            if (senderGrid.Columns[e.ColumnIndex] is DataGridViewButtonColumn &&
+                e.RowIndex >= 0)
+            {
+                var User=(Model.User)senderGrid.Rows[e.RowIndex].DataBoundItem;
+                if(User.Status=="active")
+                {
+                   // MessageBox.Show()
+                }
             }
         }
     }

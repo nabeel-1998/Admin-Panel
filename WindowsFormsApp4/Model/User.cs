@@ -17,6 +17,7 @@ namespace WindowsFormsApp4.Model
         public string email_address { get; set; }
         public string contact_no { get; set; }
         public string userrating { get; set; }
+        public string Status { get; set; }
 
         public static string baseuri = string.Format("http://{0}:8045", "Localhost");
         public static async Task<List<User>> getallusers()

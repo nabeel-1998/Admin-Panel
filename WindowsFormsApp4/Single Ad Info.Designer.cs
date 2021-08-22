@@ -65,6 +65,7 @@ namespace WindowsFormsApp4
             this.adimage.Location = new System.Drawing.Point(24, 49);
             this.adimage.Name = "adimage";
             this.adimage.Size = new System.Drawing.Size(186, 186);
+            this.adimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.adimage.TabIndex = 0;
             this.adimage.TabStop = false;
             this.adimage.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Square;
@@ -208,7 +209,6 @@ namespace WindowsFormsApp4
             this.message.Name = "message";
             this.message.Size = new System.Drawing.Size(329, 82);
             this.message.TabIndex = 8;
-            this.message.Text = "Message to User";
             this.message.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // bunifuLabel6
@@ -231,7 +231,7 @@ namespace WindowsFormsApp4
             this.bunifuButton1.AnimationSpeed = 200;
             this.bunifuButton1.AutoGenerateColors = false;
             this.bunifuButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuButton1.BackColor1 = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
             this.bunifuButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuButton1.BackgroundImage")));
             this.bunifuButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.bunifuButton1.ButtonText = "Send";
@@ -250,15 +250,15 @@ namespace WindowsFormsApp4
             this.bunifuButton1.DisabledForecolor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
             this.bunifuButton1.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.bunifuButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.bunifuButton1.ForeColor = System.Drawing.Color.White;
+            this.bunifuButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.bunifuButton1.IconLeftCursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuButton1.IconMarginLeft = 11;
             this.bunifuButton1.IconPadding = 10;
             this.bunifuButton1.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuButton1.IdleBorderColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.IdleBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
             this.bunifuButton1.IdleBorderRadius = 3;
             this.bunifuButton1.IdleBorderThickness = 1;
-            this.bunifuButton1.IdleFillColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuButton1.IdleFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
             this.bunifuButton1.IdleIconLeftImage = null;
             this.bunifuButton1.IdleIconRightImage = null;
             this.bunifuButton1.IndicateFocus = false;
@@ -408,6 +408,7 @@ namespace WindowsFormsApp4
             // 
             // adtitle
             // 
+            this.AcceptButton = this.bunifuButton1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 423);
@@ -427,7 +428,8 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.adimage);
             this.Name = "adtitle";
-            this.Text = "Single_Ad_Info";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Advertisment Options";
             this.Load += new System.EventHandler(this.adtitle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.adimage)).EndInit();
             this.ResumeLayout(false);

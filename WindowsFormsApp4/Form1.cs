@@ -70,13 +70,17 @@ namespace WindowsFormsApp4
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            LoaderImage.Visible = false;
         }
 
-        private void bunifuButton1_Click(object sender, EventArgs e)
+        private async void bunifuButton1_Click(object sender, EventArgs e)
         {
-            
-            AdminControl.login(bunifuTextBox1.Text,bunifuTextBox2.Text,this);
+            LoaderImage.Visible = true;
+            var result = await AdminControl.login(bunifuTextBox1.Text,bunifuTextBox2.Text,this);
+            if(!result)
+            {
+                LoaderImage.Visible = false;
+            }
             
         }
 

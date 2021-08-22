@@ -253,6 +253,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Issue Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Issue Info.Designer.cs">
+      <DependentUpon>Issue Info.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Admin.cs" />
     <Compile Include="Model\Advertisment.cs" />
     <Compile Include="Model\Funds.cs" />
@@ -261,6 +267,7 @@
     <Compile Include="Model\ResolvedIssues.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Model\Volunteer.cs" />
+    <Compile Include="Model\Volunteer_Report.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Single Ad Info.cs">
@@ -280,6 +287,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Issue Info.resx">
+      <DependentUpon>Issue Info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -302,6 +312,7 @@
     <None Include="Properties\DataSources\WindowsFormsApp4.Model.ResolvedIssues.datasource" />
     <None Include="Properties\DataSources\WindowsFormsApp4.Model.User.datasource" />
     <None Include="Properties\DataSources\WindowsFormsApp4.Model.Volunteer.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApp4.Model.Volunteer_Report.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

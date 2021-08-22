@@ -35,29 +35,62 @@ namespace WindowsFormsApp4
             AdvertismentControl adControl = new AdvertismentControl();
             if(string.IsNullOrEmpty(message.Text))
             {
-                var result=await adControl.UpdateStatusofAd((string)bunifuDropdown1.SelectedItem, AdInfo.advertisment_id, Convert.ToInt32(elapsed_days.Text));
-                if(result)
+                if(string.IsNullOrEmpty(elapsed_days.Text))
                 {
-                    MessageBox.Show("Status Updated successfully");
-            }
-            else
-            {
-                    MessageBox.Show("Status Not Updated!");
-                }
-            }
-            else
-            {
-                var result = await adControl.UpdateStatusofAd((string)bunifuDropdown1.SelectedItem, AdInfo.advertisment_id, Convert.ToInt32(elapsed_days.Text));
-                await adControl.SendMessagetoAdvertiser(AdInfo.User_id, message.Text);
-                if (result)
-                {
-                    MessageBox.Show("Status Sent successfully");
+                    var result = await adControl.UpdateStatusofAd(bunifuDropdown1.SelectedItem.ToString(), AdInfo.advertisment_id, 0);
+                    if(result)
+                    {
+                        MessageBox.Show("Status Updated Successfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Status Not Updated");
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Status Not Updated!");
+                    var result = await adControl.UpdateStatusofAd(bunifuDropdown1.SelectedItem.ToString(), AdInfo.advertisment_id, Convert.ToInt32(elapsed_days.Text));
+                    if (result)
+                    {
+                        MessageBox.Show("Status Updated Successfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Status Not Updated");
+                    }
                 }
             }
+            else
+            {
+                if (string.IsNullOrEmpty(elapsed_days.Text))
+                {
+                    var result = await adControl.UpdateStatusofAd(bunifuDropdown1.SelectedItem.ToString(), AdInfo.advertisment_id, 0);
+                    var anotherResult = await adControl.SendMessagetoAdvertiser(AdInfo.User_id, message.Text);
+                    if (result)
+                    {
+                        MessageBox.Show("Status Sent Successfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Status Not Updated");
+                    }
+                }
+                else
+                {
+                    var result = await adControl.UpdateStatusofAd(bunifuDropdown1.SelectedItem.ToString(), AdInfo.advertisment_id, Convert.ToInt32(elapsed_days.Text));
+                    var anotherResult = await adControl.SendMessagetoAdvertiser(AdInfo.User_id, message.Text);
+                    if (result)
+                    {
+                        MessageBox.Show("Status Sent Successfully");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Status Not Updated");
+                    }
+                }
+
+            }
+          
         }
     }
 }

@@ -17,7 +17,7 @@ namespace WindowsFormsApp4.Controls
         public static string phoneNo { get; set; }
         public static string email { get; set; }
 
-        public static async void login(string name, string passwrod, WindowsFormsApp4.Form1 form)
+        public static async Task<bool> login(string name, string passwrod, WindowsFormsApp4.Form1 form)
         {
             bool check = await Admin.logindata(name, passwrod);
             if (check == true)
@@ -31,7 +31,7 @@ namespace WindowsFormsApp4.Controls
 
                 MessageBox.Show("Login Failed");
             }
-
+            return check;
         }
 
         internal async static Task<List<Message>> SendMessage(string msgtext)

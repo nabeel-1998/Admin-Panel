@@ -9,13 +9,15 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp4.Model
 {
-    class Issue
+    public class Issue
     {
 
         public int issue_id { get; set; }
         
         public string status { get; set; }
         public string issueStatement { get; set; }
+
+        public string IssueImage { get; set; }
         //public string issue_image { get; set; }
         public DateTime issue_date { get; set; }
 
