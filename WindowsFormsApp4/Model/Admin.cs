@@ -20,6 +20,9 @@ namespace WindowsFormsApp4.Model
         {
            
             HttpClient client = new HttpClient();
+            HttpClient costclient = new HttpClient();
+            var costuri = User.baseuri + "/api/issue/estimateallcost";
+            
             string uri = User.baseuri + "/api/admin/adminlogin/?name=" + name + "&password=" + password;
             var response = await client.GetAsync(uri);
             var another_response = await client.GetStringAsync(uri);
@@ -28,6 +31,7 @@ namespace WindowsFormsApp4.Model
                 
                 var adminObject = JsonConvert.DeserializeObject<Admin>(another_response);
                 Admin_info_holder.GetInfo(adminObject);
+                await costclient.GetAsync(costuri);
                 return true;
             }
             else

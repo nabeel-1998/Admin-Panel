@@ -145,7 +145,7 @@ namespace WindowsFormsApp4
             }
             catch(Exception)
             {
-                throw;
+                MessageBox.Show("No internet Connection");
             }
             finally
             {
@@ -651,7 +651,7 @@ namespace WindowsFormsApp4
             bunifuFlatButton2.selected = true;
         }
 
-        private void USER_TABLE_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private async void USER_TABLE_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             var senderGrid = (BunifuDataGridView)sender;
 
@@ -661,7 +661,13 @@ namespace WindowsFormsApp4
                 var User=(Model.User)senderGrid.Rows[e.RowIndex].DataBoundItem;
                 if(User.Status=="active")
                 {
-                   // MessageBox.Show()
+                    await AccountControl.Changestatus(Convert.ToInt32(User.user_id));
+                    MessageBox.Show("The user has been blocked");
+                }
+                if (User.Status == "blocked")
+                {
+                    await AccountControl.Changestatus(Convert.ToInt32(User.user_id));
+                    MessageBox.Show("The user has been set as active");
                 }
             }
         }

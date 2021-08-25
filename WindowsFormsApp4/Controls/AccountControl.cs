@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -10,6 +11,12 @@ namespace WindowsFormsApp4.Controls
 {
     class AccountControl
     {
+        public static async Task Changestatus(int userid)
+        {
+            HttpClient client = new HttpClient();
+            var uri = User.baseuri + "/api/admin/updateuserstatus/?userid=" + userid;
+            var response = await client.GetAsync(uri);
+        }
         public static async void changeusername(string name, string pass)
         {
             var check = await Admin.ChangeUserName(name, pass);
