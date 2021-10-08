@@ -18,8 +18,9 @@ namespace WindowsFormsApp4.Model
         public string contact_no { get; set; }
         public string userrating { get; set; }
         public string Status { get; set; }
-
-        public static string baseuri = string.Format("https://fypwebapi20210825074306.azurewebsites.net/");
+       
+        //http://{0}:8045","localhost
+        public static string baseuri = string.Format("https://fypwebapiappservice1.azurewebsites.net");
         public static async Task<List<User>> getallusers()
         {
             HttpClient client = new HttpClient();

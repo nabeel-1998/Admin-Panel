@@ -41,5 +41,12 @@ namespace WindowsFormsApp4.Controls
             }
             return false;
         }
+
+        public async Task estimateAllIssuesCost()
+        {
+            HttpClient client = new HttpClient();
+            var uri = Model.User.baseuri + "/api/issue/estimateallcost";
+            var response = await client.GetAsync(uri);
+        }
     }
 }

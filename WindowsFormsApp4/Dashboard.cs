@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp4.Controls;
@@ -26,9 +27,18 @@ namespace WindowsFormsApp4
             
             resolvedIssuesBindingSource.AddingNew += ResolvedIssuesBindingSource_AddingNew;
             volunteerReportBindingSource.AddingNew += VolunteerReportBindingSource_AddingNew;
+            feedbackBindingSource.AddingNew += FeedbackBindingSource_AddingNew;
 
 
 
+        }
+
+        private void FeedbackBindingSource_AddingNew(object sender, AddingNewEventArgs e)
+        {
+            if (feedback_gridview.Rows.Count == feedbackBindingSource.Count)
+            {
+                feedbackBindingSource.RemoveAt(feedbackBindingSource.Count - 1);
+            }
         }
 
         private void VolunteerReportBindingSource_AddingNew(object sender, AddingNewEventArgs e)
@@ -670,6 +680,24 @@ namespace WindowsFormsApp4
                     MessageBox.Show("The user has been set as active");
                 }
             }
+        }
+
+        private async void bunifuFlatButton3_Click(object sender, EventArgs e)
+        {
+            feedback_gridview.DataSource = await ReportControl.getallfeedback();
+            bunifuPages2.SetPage("Feedback");
+            bunifuFlatButton1.selected = false;
+            bunifuFlatButton2.selected = false;
+            bunifuFlatButton3.selected = true;
+
+        }
+
+        private void CostEstimationButton_Click(object sender, EventArgs e)
+        {
+            Thread thread = new Thread(new ThreadStart(() => { new IssueControl().estimateAllIssuesCost(); }));
+            thread.Start();
+            MessageBox.Show("Estimation Process has been started...");
+
         }
     }
 }

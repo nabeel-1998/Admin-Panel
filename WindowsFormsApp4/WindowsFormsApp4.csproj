@@ -261,6 +261,7 @@
     </Compile>
     <Compile Include="Model\Admin.cs" />
     <Compile Include="Model\Advertisment.cs" />
+    <Compile Include="Model\Feedback.cs" />
     <Compile Include="Model\Funds.cs" />
     <Compile Include="Model\Issue.cs" />
     <Compile Include="Model\Report.cs" />
@@ -306,6 +307,7 @@
     <None Include="FYP Web API.csproj" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\WindowsFormsApp4.Model.Advertisment.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApp4.Model.Feedback.datasource" />
     <None Include="Properties\DataSources\WindowsFormsApp4.Model.Issue.datasource" />
     <None Include="Properties\DataSources\WindowsFormsApp4.Model.pp.datasource" />
     <None Include="Properties\DataSources\WindowsFormsApp4.Model.Report.datasource" />
